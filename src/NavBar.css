@@ -4,7 +4,7 @@
   font-weight: bold;
   color: #999;
   padding: 10px 10px 0 10px; /* reduced bottom padding */
-  margin-bottom: 20; /* remove space between navbar and image */
+  margin-bottom: 20px; /* remove space between navbar and image */
   margin-top: 20px;
 }
 
@@ -13,8 +13,8 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: flex-start;
-  margin-left: 340px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .nav-bar li {
@@ -32,4 +32,21 @@
 
 .nav-bar a.active {
   color: #666;
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .nav-bar ul {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .nav-bar li {
+    margin: 5px 10px;
+  }
 }
