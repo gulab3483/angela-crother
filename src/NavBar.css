@@ -1,0 +1,35 @@
+.nav-bar {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #999;
+  padding: 10px 10px 0 10px; /* reduced bottom padding */
+  margin-bottom: 20; /* remove space between navbar and image */
+  margin-top: 20px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 340px;
+}
+
+.nav-bar li {
+  margin-right: 20px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #999;
+}
+
+.nav-bar a:hover {
+  color: #f00;
+}
+
+.nav-bar a.active {
+  color: #666;
+}
