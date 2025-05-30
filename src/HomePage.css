@@ -114,22 +114,57 @@
   display: block;
 }
 
-.contact-form input,
-.contact-form textarea {
-  padding: 10px;
-  font-size: 14px;
+/* .contact-form input {
+  padding: 5px 8px;
+  height: 24px;
+  font-size: 12.5px;
   border: none;
   border-bottom: 1px solid #ccc;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  resize: none;
-  width: 100%;
+  width: 90%;
+} */
+
+.contact-form input[name="name"] {
+  padding: 5px 8px;
+  height: 24px;
+  font-size: 12.5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  width: 92%;
+}
+
+.contact-form input[name="email"] {
+  padding: 5px 8px;
+  height: 24px;
+  font-size: 12.5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  width: 92%;
+}
+
+.contact-form input[name="subject"] {
+  padding: 5px 8px;
+  height: 24px;
+  font-size: 12.5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  width: 96%;
 }
 
 .contact-form textarea {
+  padding: 10px 12px;
+  font-size: 13px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  min-height: 120px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  resize: none;
+  width: 95%;
+  min-height: 100px;
 }
+
 
 .contact-form button {
   width: fit-content;
