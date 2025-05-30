@@ -8,12 +8,12 @@ const NavBar = () => {
       <ul>
         <li>
           <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>
-            Welcome 1
+            Welcome
           </NavLink>
         </li>
         <li>
           <NavLink to="/welcome2" className={({ isActive }) => isActive ? 'active' : ''}>
-            Welcome 2
+            Contact
           </NavLink>
         </li>
       </ul>
