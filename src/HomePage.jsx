@@ -26,10 +26,7 @@ const HomePage = () => {
 
         <p>I am a lifelong student of science and medicine, most passionately; herbalism, nutrition and functional medicine. Supporting women on their lifelong journey to health and vitality is a beautiful part of my life. In my free time I enjoy organic farming, singing to my very happy chickens, practicing yoga, dancing, hiking, experiencing nature, reading and connecting with my family and friends.</p>
 
-        <h3>Psilocybin Facilitation: Background and Philosophy of Care</h3>
-        <p>As a psilocybin facilitator I provide support and guidance for individuals/couples/groups who wish to use the hallucinogenic drug psilocybin otherwise known as magic mushrooms in a safe, legal and controlled environment. I will help you prepare for the journey, determine the appropriate dose, be present with you during the entirety of your trip and help you integrate the experience afterwards. Clients come to desire a journey with psilocybin for a variety of reasons but the most common reasons are: personal growth, spiritual growth, trauma resolution, seeking different perspectives, end of life matters, seeking embodiment and just plain fun.</p>
-
-        <p>To inquire about my psilocybin facilitation services in Oregon email me at <a href="mailto:womyn1013@hotmail.com">womyn1013@hotmail.com</a>. Strictly, my psilocybin facilitation services are only available to be conducted in a state of Oregon licensed service center. The service center provides the legal psilocybin for you to consume on your journey day.</p>
+        <p>To inquire about my services in Oregon email me at <a href="mailto:womyn1013@hotmail.com">womyn1013@hotmail.com</a>.</p>
 
         <blockquote>"If the only prayer you said was 'Thank You,' that would be enough."<br />—Meister Eckhart</blockquote>
       </div>
